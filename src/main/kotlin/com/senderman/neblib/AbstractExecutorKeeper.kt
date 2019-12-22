@@ -1,7 +1,5 @@
 package com.senderman.neblib
 
-import com.senderman.neblib.CommandExecutor
-
 abstract class AbstractExecutorKeeper {
 
     protected val commandExecutors: MutableMap<String, CommandExecutor> = HashMap()
